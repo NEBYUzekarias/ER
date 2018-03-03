@@ -131,9 +131,9 @@ int main(int, char**)
 
 
 
-        // imshow("dilate_output", dilate_output);
-        // imshow("absdiff_output", absdiff_output);
-        // imshow("frame", frame);
+        imshow("dilate_output", dilate_output);
+        imshow("absdiff_output", absdiff_output);
+        imshow("frame", frame);
         if(waitKey(30) >= 0) break;
     }
   return 0;
